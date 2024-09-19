@@ -1,0 +1,80 @@
+@Metadata.layer: #PARTNER
+annotate entity ZUNE_TDS_FINAL
+    with 
+{
+     @UI: { 
+        lineItem: [ { position: 10, importance: #HIGH, label: 'Document Number' } ]
+      }
+    @EndUserText.label: 'Document Number'
+     DocumentNumber;
+     @UI: { 
+        lineItem: [ { position: 20, importance: #HIGH, label: 'Document Ref.' } ]
+      }
+    @EndUserText.label: 'Document Ref.'
+    DocumentReferenceID;
+    @UI: { 
+        lineItem: [ { position: 30, importance: #HIGH, label: 'Posting Date' } ]
+      }
+    @EndUserText.label: 'Posting Date'
+    PostingDate;
+    @UI: { 
+        lineItem: [ { position: 30, importance: #HIGH, label: 'Document Date' } ]
+      }
+    @EndUserText.label: 'Document Date'
+     DocumentDate;
+     @UI: { 
+        lineItem: [ { position: 40, importance: #HIGH, label: 'Off Wtax Key' } ]
+      }
+    @EndUserText.label: 'Off Wtax Key'
+     OfficialWhldgTaxCode;
+     @UI: { 
+        lineItem: [ { position: 50, importance: #HIGH, label: 'Off. W/Tax Desc.' } ]
+      }
+    @EndUserText.label: 'Off. W/Tax Desc.'
+     WhldgTaxCodeName;
+     @UI: { 
+        lineItem: [ { position: 60, importance: #HIGH, label: 'Supplier' } ]
+      }
+    @EndUserText.label: 'Supplier'
+     CustomerSupplierAccount;
+     @UI: { 
+        lineItem: [ { position: 70, importance: #HIGH, label: 'Vendor Name' } ]
+      }
+    @EndUserText.label: 'Vendor Name'
+     SupplierFullName;
+     @UI: { 
+        lineItem: [ { position: 70, importance: #HIGH, label: 'PAN Number' } ]
+      }
+    @EndUserText.label: 'PAN Number'
+     BusinessPartnerPanNumber;
+     @UI: { 
+        lineItem: [ { position: 80, importance: #HIGH, label: 'Tax Rate' } ]
+      }
+    @EndUserText.label: 'Tax Rate'
+     WithholdingTaxPercent;
+     @UI: { 
+        lineItem: [ { position: 90, importance: #HIGH, label: 'Tax code' } ]
+      }
+    @EndUserText.label: 'Tax code'
+     WithholdingTaxCode; 
+     @UI: { 
+        lineItem: [ { position: 100, importance: #HIGH, label: 'Base Amount' } ]
+      }
+    @EndUserText.label: 'Base Amount'
+     BaseAmount;
+     @UI: { 
+        lineItem: [ { position: 110, importance: #HIGH, label: 'Tax Amount' } ]
+      }
+    @EndUserText.label: 'Tax Amount'
+     Amount; 
+     @UI: { 
+        lineItem: [ { position: 120, importance: #HIGH, label: 'GL Account' } ]
+      }
+    @EndUserText.label: 'GL Account'
+     GLAccount; 
+     @UI: { 
+        lineItem: [ { position: 120, importance: #HIGH, label: 'Tax type' } ]
+      }
+    @EndUserText.label: 'Tax type' 
+     WithholdingTaxType; 
+}

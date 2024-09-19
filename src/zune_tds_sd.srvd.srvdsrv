@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition For TDS Register'
+define service ZUNE_TDS_SD {
+  expose ZUNE_TDS_FINAL;
+}
